@@ -1,5 +1,0 @@
-# usage:
-sudo patch -u /usr/share/X11/xkb/rules/evdev.xml evdev.xml.patch
-sudo patch -u /usr/share/X11/xkb/symbols/sk sk.patch
-
-setxkbmap sk dvorak-ucw

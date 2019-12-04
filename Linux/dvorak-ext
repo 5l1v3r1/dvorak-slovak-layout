@@ -1,0 +1,48 @@
+partial alphanumeric_keys
+xkb_symbols "dvorak-ext" {
+
+    include "us(dvorak)"
+
+    name[Group1]= "English (Dvorak) Extended (PL, SK, CZ)";
+
+    // (AB03)
+    // A-alphanumeric
+    // row counted from bottom of the keyboard (B = second)
+    // number of keyboard from left (03)
+
+    key <AE01> { [ 1, exclam,      aogonek,   Aogonek   ] };
+    key <AE02> { [ 2, at,          cacute,    Cacute    ] };
+    key <AE03> { [ 3, numbersign,  eogonek,   Eogonek   ] };
+    key <AE04> { [ 4, dollar,      lstroke,   Lstroke   ] };
+    key <AE05> { [ 5, percent,     nacute,    Nacute    ] };
+    key <AE06> { [ 6, asciicircum, sacute,    Sacute    ] };
+    key <AE07> { [ 7, ampersand,   zabovedot, Zabovedot ] };
+    key <AE08> { [ 8, asterisk,    zacute,    Zacute    ] };
+    // key <AE09> { [ 9, parenleft,   dead_grave] };
+    // key <AE10> { [ 0, parenright   ]       };
+
+    key <AD05> { [ y, Y, yacute, Yacute ] };
+    key <AD08> { [ c, C, ccaron, Ccaron ] };
+    key <AD09> { [ r, R, racute, Racute ] };
+    key <AD10> { [ l, L, lacute, Lacute ] };
+    key <AD11> { [ slash, question, lcaron, Lcaron ] };
+
+    key <AC01> { [ a, A, aacute, Aacute ] };
+    key <AC02> { [ o, O, oacute, Oacute ] };
+    key <AC03> { [ e, E, eacute, Ecaron ] };
+    key <AC04> { [ u, U, uacute, Uacute ] };
+    key <AC05> { [ i, I, iacute, Iacute ] };
+    key <AC06> { [ d, D, dcaron, Dcaron ] };
+    key <AC08> { [ t, T, tcaron, Tcaron ] };
+    key <AC09> { [ n, N, ncaron, Ncaron ] };
+    key <AC10> { [ s, S, scaron, Scaron ] };
+
+    key <AB01> { [ semicolon, colon, adiaeresis, Adiaeresis ] };
+    key <AB02> { [ q, Q, ocircumflex, Ocircumflex ] };
+    key <AB03> { [ j, J, EuroSign, NoSymbol ] };
+    key <AB04> { [ k, K, uacute, Uacute ] };
+    key <AB10> { [ z, Z, zcaron, Zcaron ] };
+
+
+    include "level3(ralt_switch)"
+};
