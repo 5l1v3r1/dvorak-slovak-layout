@@ -1,6 +1,6 @@
-- Append the dvorak-ext content to /usr/share/X11/xkb/symbols/us, after the `dvorak` layout description.
+- Append the `dvorak-ext` file content to `/usr/share/X11/xkb/symbols/us`, after the `dvorak` layout description.
 
-- Modify the /usr/share/X11/xkb/rules/evdev.xml accordingly:
+- Modify the `/usr/share/X11/xkb/rules/evdev.xml` accordingly:
 
 ```
 <variant>
